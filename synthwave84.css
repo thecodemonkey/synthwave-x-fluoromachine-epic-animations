@@ -9,7 +9,8 @@
 }
 
 .mtk6 {
-  color: #fd8902;
+  /* color: #fd8902; */
+  color: #ffcc00;
   text-shadow: 0 0 2px #100c0f, 0 0 3px #ffaa0099, 0 0 5px #ffaa0099, 0 0 10px #ffaa0099;
   font-style: italic;
 }
