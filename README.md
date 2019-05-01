@@ -1,3 +1,8 @@
+# synthwave-vscode-x-fluoromachine
+This is a fork of @robbowen's Synthwave '84 theme, merged with @fullerenedream's Fluoromachine theme for VSCode. 
+
+![Theme screenshot](https://repository-images.githubusercontent.com/184457193/17103180-6be9-11e9-87ad-ddeea5b2a0e5)
+
 # SynthWave '84 - VS Code theme
 Do you remember that endless summer back in '84? Cruising down the ocean-highway with the top down, the wind in our hair and heads buzzing with neon dreams? 
 
