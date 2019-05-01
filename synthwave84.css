@@ -1,35 +1,38 @@
 
 .mtk3 {
-  color: #f92aad;
-  text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+  color: #61e2ff;
+  text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633;
 }
 
-.mtk4 {
-  color: #6d77b3;
-}
-
-.mtk5 {
-  color: #f97e72;
+.mtk4, .mtk5, .mtk14 {
+  color: #9963ff;
 }
 
 .mtk6 {
-  color: #fdfdfd;
-  text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
+  color: #fd8902;
+  text-shadow: 0 0 2px #100c0f, 0 0 3px #ffaa0099, 0 0 5px #ffaa0099, 0 0 10px #ffaa0099;
+  font-style: italic;
 }
 
-.mtk7 {
-  color: #fff5f6;
-  text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
-}
+/* .mtk7 {
+  color: #8a2dc0;
+  text-shadow: 0 0 2px #000, 0 0 10px #8a2dc066, 0 0 5px #8a2dc066, 0 0 25px #8a2dc066;
+} */
 
-.mtk8 {
+/* .mtk8 {
   color: #72f1b8;
-  text-shadow: 0 0 2px #100c0f, 0 0 10px #257c5575, 0 0 35px #21272475;
+  text-shadow: 0 0 2px #100c0f, 0 0 10px #257c55, 0 0 35px #212724;
+} */
+
+.mtk7, .mtk8, .mtk9 {
+  color: #fc199a;
+  text-shadow: 0 0 2px #393a33, 0 0 35px #ffffff44, 0 0 10px #fc199a, 0 0 2px #fc199a;
 }
 
-.mtk9 {
-  color: #f4eee4;
-  text-shadow: 0 0 2px #393a33, 0 0 35px #ffffff44, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
+
+.mtk10 {
+    color: #d60b74;
+    font-style: italic;
 }
 
 .monaco-editor .margin, .monaco-editor-background, .monaco-editor .inputarea.ime-input {
@@ -39,33 +42,65 @@
 /* Add the subtle gradient to the editor background */
 .monaco-editor {
   background-color: transparent !important;
-  background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
+  background-image: linear-gradient(to bottom, #200933 75%, #3d0b43);
   background-size: auto 100vh;
   background-position: top;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+/* .monaco-editor > .overflow-guard > .monaco-scrollable-element:after{ */
+.monaco-editor:after{
+  content:'';
+  height:300px;
+  width:100%;
+  display:block;
+  background-image:linear-gradient(90deg, rgba(252,25,154,.1) 1px, rgba(0,0,0,0) 1px), linear-gradient(0deg, rgba(252,25,154,.1) 1px, rgba(0,0,0,0) 1px);
+  background-position:bottom;
+  background-repeat:repeat;
+  background-size:20px 20px;
+  left: -25px;
+  position: absolute;
+  pointer-events: none;
+  bottom: 0;
+  transform: perspective(100px) rotateX(60deg);
+  z-index: 0;
+}
+
+/* .monaco-editor > .overflow-guard > .monaco-scrollable-element:before { */
+.monaco-editor:before {
+    background-image: repeating-linear-gradient(to bottom, transparent 0 ,transparent 2px, #FFF 2px, #FFF 4px);
+    background-size: 100% 4px cover;
+    transform-origin: 50% 50%;
+    content: '';
+    opacity: 0.02;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* .monaco-editor .overflow-guard .margin {
+    background: #210A33;
+} */
+
+canvas {
+    z-index: 2; 
+}
+
+.minimap-slider {
+    z-index: 3;
+    background: #fc199a33 !important;
+}
+
+.minimap.slider-mouseover {
+    z-index: 1;
 }
 
 /* Sweet sunset dots */
 .monaco-workbench .activitybar>.content .monaco-action-bar .badge .badge-content {
   background: linear-gradient(to bottom, #fff951 25%, #fc28a8);
-}
-
-/* Active tab neon */
-.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active {
-  box-shadow: inset 0 -5px 25px #fc28a825;
-  position: relative;
-}
-
-/* Active tab stripe */
-.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active::after {
-  content: '';
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(to right, #fc28a8, #03edf9) !important;
-  opacity: 1;
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit::after {
@@ -105,6 +140,23 @@
   width: 0px;
   transition: opacity 1s;
   opacity: 0;
+}
+
+/* Active tab neon */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active {
+  box-shadow: inset 0 -5px 25px #fc28a825;
+  position: relative;
+}
+
+/* Active tab stripe */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 4px;  
+  background: linear-gradient(to right, #fc28a8, #03edf9) !important;
 }
 
 /* update lightbuld to be neon */
