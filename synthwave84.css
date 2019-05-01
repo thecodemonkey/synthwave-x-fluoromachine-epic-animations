@@ -149,7 +149,7 @@ canvas {
 }
 
 /* Active tab stripe */
-.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active::after {
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active::before {
   content: '';
   position: absolute;
   bottom: -1px;
