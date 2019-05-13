@@ -50,8 +50,12 @@
   position: relative;
 }
 
-/* .monaco-editor > .overflow-guard > .monaco-scrollable-element:after{ */
-.monaco-editor:after{
+.editor-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.editor-container:after{
   content:'';
   height:300px;
   width:100%;
