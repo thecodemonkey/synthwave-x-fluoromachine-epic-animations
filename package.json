@@ -1,21 +1,24 @@
 {
-    "name": "synthwave-vscode",
-    "displayName": "SynthWave '84",
-    "description": "A Synthwave-inspired colour theme to satisfy your neon dreams",
-    "version": "0.0.4",
-    "author": "Robb Owen",
-    "publisher": "RobbOwen",
-    "icon": "icon.png",
+    "name": "synthwave-x-fluoromachine",
+    "displayName": "Synthwave x Fluoromachine",
+    "description": "Synthwave '84 x Fluoromachine Theme",
+    "version": "0.0.1",
+    "author": "Jeremy Laskar",
+    "publisher": "webrender",
+	"icon": "icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/robb0wen/synthwave-vscode"
+        "url": "https://github.com/webrender/synthwave-vscode-x-fluoromachine"
     },
     "engines": {
         "vscode": "^1.33.0"
     },
     "keywords": [
         "retro",
-        "80s"
+        "80s",
+        "vaporwave",
+        "synthwave",
+        "fluoromachine"
     ],
     "categories": [
         "Themes"
@@ -23,9 +26,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "SynthWave '84",
+                "label": "Synthwave x Fluoromachine",
                 "uiTheme": "vs-dark",
-                "path": "./themes/synthwave-color-theme.json"
+                "path": "./themes/synthwave-x-fluoromachine.json"
             }
         ]
     }
