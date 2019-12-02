@@ -15,7 +15,7 @@ On Mac it might look something like the snippet below:
 
 {
   "vscode_custom_css.imports": [
-    "file:///Users/{your username}/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.5/synthwave-x-fluoromachine.css"
+    "file:///Users/{your username}/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.6/synthwave-x-fluoromachine.css"
     ]
 }
 
@@ -23,7 +23,7 @@ Windows might resemble:
 
 {
   "vscode_custom_css.imports": [
-    "file:///C:/Users/{your username}/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.5/synthwave-x-fluoromachine.css"
+    "file:///C:/Users/{your username}/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.6/synthwave-x-fluoromachine.css"
     ]
 }
 ```
