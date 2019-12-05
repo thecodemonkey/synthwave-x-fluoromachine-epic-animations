@@ -183,7 +183,12 @@ canvas {
     background: linear-gradient(to bottom, #8a2dc0,  #fc28a8);
     box-shadow: 0 0 5px #fc199a;
     border-color: #8a2dc0; 
-    color: #241b2f; }
+    color: #241b2f; 
+}
+
+.monaco-inputbox>.wrapper>textarea.input::selection {
+  background-color:rgba(255,255,255,0.3);
+}
 
 .monaco-editor .line-numbers {
   color: #8a2dc066;
