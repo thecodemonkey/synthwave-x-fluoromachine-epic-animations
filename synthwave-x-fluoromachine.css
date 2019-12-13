@@ -1,5 +1,5 @@
 
-.mtk3 {
+.mtk3, .mtk6 {
   color: #61e2ff;
   text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633;
 }
@@ -8,7 +8,7 @@
   color: #9963ff;
 }
 
-.mtk6 {
+.mtk8 {
   /* color: #fd8902; */
   color: #ffcc00;
   text-shadow: 0 0 2px #100c0f, 0 0 3px #ffaa0099, 0 0 5px #ffaa0099, 0 0 10px #ffaa0099;
@@ -25,7 +25,7 @@
   text-shadow: 0 0 2px #100c0f, 0 0 10px #257c55, 0 0 35px #212724;
 } */
 
-.mtk7, .mtk8, .mtk9 {
+.mtk7, .mtk9 {
   color: #fc199a;
   text-shadow: 0 0 2px #393a33, 0 0 35px #ffffff44, 0 0 10px #fc199a, 0 0 2px #fc199a;
 }
