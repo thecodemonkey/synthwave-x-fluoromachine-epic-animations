@@ -4,6 +4,11 @@
   text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633;
 }
 
+.mtk3.mtki {
+  font-style: italic;
+  color: #495495;
+}
+
 .mtk4, .mtk5, .mtk14 {
   color: #9963ff;
 }
