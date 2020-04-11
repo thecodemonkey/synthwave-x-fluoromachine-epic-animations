@@ -595,6 +595,39 @@
         "foreground": "#61e2ff",
         "fontStyle": "italic"
       }
+    },
+    {
+      "name": "ARM template property name",
+      "scope": [
+        "support.type.property-name.json.arm-template"
+      ],
+      "settings": {
+        "foreground": "#f92aad"
+      }
+    }, 
+    {
+      "name": "ARM template function, parameter and variable names",
+      "scope": [
+        "support.type.parameters.parameter-name.tle.arm-template",
+        "variable.language.variables.variable-name.tle.arm-template",
+        "entity.name.tag.usernamespace.tle.arm-template",
+        "entity.name.tag.userfunction.tle.arm-template"
+      ],
+      "settings": {
+        "foreground": "#61e2ffff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "ARM template parameters and variables",
+      "scope": [
+        "variable.language.variables.tle.arm-template",
+        "support.type.parameters.tle.arm-template"
+      ],
+      "settings": {
+        "foreground": "#36f9f6ff",
+        "fontStyle": ""
+      }
     }
   ]
 }
