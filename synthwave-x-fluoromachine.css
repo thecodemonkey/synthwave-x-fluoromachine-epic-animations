@@ -9,11 +9,11 @@
   color: #9963ff99;
 }
 
-.mtk4, .mtk5, .mtk14 {
+.mtk4, .mtk5, .mtk11, .mtk14 {
   color: #9963ff;
 }
 
-.mtk8 {
+.mtk8, .mtk9 {
   /* color: #fd8902; */
   color: #ffcc00;
   text-shadow: 0 0 2px #100c0f, 0 0 3px #ffaa0099, 0 0 5px #ffaa0099, 0 0 10px #ffaa0099;
@@ -30,7 +30,7 @@
   text-shadow: 0 0 2px #100c0f, 0 0 10px #257c55, 0 0 35px #212724;
 } */
 
-.mtk7, .mtk9, .mtk10 {
+.mtk7, .mtk10 {
   color: #fc199a;
   text-shadow: 0 0 2px #393a33, 0 0 35px #ffffff44, 0 0 10px #fc199a, 0 0 2px #fc199a;
 }
@@ -213,4 +213,9 @@ canvas {
 
 .explorer-folders-view span[title~="problems"], .monaco-icon-label[title~="problems"]::after {
   color: #ffcc00;
+}
+
+.vs-dark .monaco-scrollable-element>.scrollbar>.slider {
+  background: rgb(153, 99, 255);
+  opacity: 0.5;
 }

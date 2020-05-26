@@ -244,7 +244,7 @@
       "name": "HTML or XML tag",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#8a2dc0"
+        "foreground": "#ffcc00"
       }
     },
     {
