@@ -14,7 +14,7 @@
 
 .mtk8:hover, .mtk9:hover, .mtk3:hover, .mtk6:hover, .mtk7:hover, .mtk10:hover {
     text-shadow: 2 2 15px;
-    transform: rotateX(180deg);
+    transform: scale(1.2);
 }
 
 
@@ -74,6 +74,28 @@
 
 
 /* end of tooltips */
+
+
+/* tabs */
+
+/* .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active::before {
+    
+    animation: neonline2 2s infinite;
+    background-size: 200% 200%!important;
+    width: 100%;
+    background-image: linear-gradient(to right, #fc28a8, #03edf9, #fc28a8, #03edf9, #fc28a8)!important;
+}
+
+@keyframes neonline2 {
+    0% {  
+       background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }    
+} */
+
+/* end of tabs*/
 
 
 .monaco-editor .selected-text {
