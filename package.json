@@ -2,7 +2,7 @@
     "name": "synthwave-x-fluoromachine-epic-animations",
     "displayName": "Synthwave x Fluoromachine & epic animations",
     "description": "Synthwave '84 x Fluoromachine Theme & epic css transitions",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Ilja Leyberman",
     "publisher": "TheCodemonkey",
 	"icon": "icon.png",
@@ -33,5 +33,8 @@
                 "path": "./themes/synthwave-x-fluoromachine.json"
             }
         ]
+    },
+    "scripts": {
+        "package" : "vsce package"
     }
 }

@@ -13,15 +13,15 @@
 
 • install this theme  
 • install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)  
-• link the CSS file from this extension in your vscode settings.json: 
+• link the CSS file from this extension in your .vscode/settings.json: 
 
 ```
 On Mac it might look something like the snippet below:
 
 {
   "vscode_custom_css.imports": [
-    "file:///Users/{your username}/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.12/synthwave-x-fluoromachine.css",
-    "file:///Users/{your username}/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.12/epic-80s-transitions.css"
+    "file:///Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.0.1/synthwave-x-fluoromachine.css",
+    "file:///Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.0.1/epic-80s-transitions.css"
     ]
 }
 
@@ -29,8 +29,8 @@ Windows might resemble:
 
 {
   "vscode_custom_css.imports": [
-    "file:///C:/Users/{your username}/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.12/synthwave-x-fluoromachine.css",
-    "file:///C:/Users/{your username}/.vscode/extensions/webrender.synthwave-x-fluoromachine-0.0.12/epic-80s-transitions.css"
+    "file:///C:/Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.0.1/synthwave-x-fluoromachine.css",
+    "file:///C:/Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.0.1/epic-80s-transitions.css"
     ]
 }
 ```
