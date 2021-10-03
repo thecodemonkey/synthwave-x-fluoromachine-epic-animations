@@ -40,3 +40,22 @@ Windows might resemble:
 
 ## Font
 The font being used in the screenshot above is [Operator Mono with Ligatures](https://github.com/kiliman/operator-mono-lig).
+
+
+<br/><br/>
+
+## contibution
+You are invited to contribute to the project.
+
+
+
+<br/><br/>
+
+## contact
+write me on twitter.
+
+
+<br/><br/>
+
+## license
+i ❤️ MIT
