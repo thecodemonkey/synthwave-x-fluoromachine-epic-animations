@@ -1,14 +1,14 @@
 {
     "name": "synthwave-x-fluoromachine",
-    "displayName": "Synthwave x Fluoromachine",
-    "description": "Synthwave '84 x Fluoromachine Theme",
-    "version": "0.0.12",
-    "author": "Jeremy Laskar",
-    "publisher": "webrender",
+    "displayName": "Synthwave x Fluoromachine & epic animations",
+    "description": "Synthwave '84 x Fluoromachine Theme & epic css transitions",
+    "version": "1.0.0",
+    "author": "Ilja Leyberman",
+    "publisher": "TheCodemonkey",
 	"icon": "icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/webrender/synthwave-vscode-x-fluoromachine"
+        "url": "https://github.com/thecodemonkey/synthwave-x-fluoromachine-epic-animations/"
     },
     "engines": {
         "vscode": "^1.33.0"
@@ -18,7 +18,9 @@
         "80s",
         "vaporwave",
         "synthwave",
-        "fluoromachine"
+        "fluoromachine",
+	"animated",
+	"theme"
     ],
     "categories": [
         "Themes"
@@ -26,7 +28,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Synthwave x Fluoromachine",
+                "label": "Synthwave x Fluoromachine & epic animations",
                 "uiTheme": "vs-dark",
                 "path": "./themes/synthwave-x-fluoromachine.json"
             }
