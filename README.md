@@ -1,7 +1,13 @@
-# synthwave-x-fluoromachine
-This is a fork of @robbowen's [Synthwave '84 theme](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode), merged with @fullerenedream's [Fluoromachine](https://colorsublime.github.io/themes/FluoroMachine/) theme for VSCode. 
+# synthwave-x-fluoromachine-epic-animations
 
-![Theme screenshot](https://repository-images.githubusercontent.com/184457193/69dcff00-14d2-11ea-90e1-4bdf6fef80ca)
+<br/><br/>
+
+*This is a fork of webrender/synthwave-x-fluoromachine, wich is also fork of @robbowen's [Synthwave '84 theme](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode), merged with @fullerenedream's [Fluoromachine](https://colorsublime.github.io/themes/FluoroMachine/) theme for VSCode.*
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/1646017/124357788-9bbdc680-dc1d-11eb-8d9e-1835933d6bcf.gif" style="box-shadow:0 0 35px #000; width: 80%"/>
+</p>
+
 
 ## Installation 
 
@@ -30,11 +36,6 @@ Windows might resemble:
 ```
 
 • epic-80s-transitions.css is optional and brings crazy 80's animations into your VS code!
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/1646017/124357788-9bbdc680-dc1d-11eb-8d9e-1835933d6bcf.gif" style="box-shadow:0 0 35px #000; width: 80%"/>
-</p>
-
 • From the command panel, select `Reload Custom CSS and JS`. You'll need to run this command every time vscode updates.
 
 ## Font
