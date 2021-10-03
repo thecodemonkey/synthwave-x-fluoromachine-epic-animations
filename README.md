@@ -36,6 +36,7 @@ Windows might resemble:
 ```
 
 • epic-80s-transitions.css is optional and brings crazy 80's animations into your VS code!
+
 • From the command panel, select `Reload Custom CSS and JS`. You'll need to run this command every time vscode updates.
 
 ## Font
