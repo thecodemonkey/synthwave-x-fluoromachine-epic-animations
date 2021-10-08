@@ -171,13 +171,12 @@
 }
 
 @keyframes flight {
-    0% {  
-        background-size:20px 20px;
-       
-    }
-    100% {
-        background-size:20px 10px;
-    }
+  0% {
+    transform: perspective(100px) rotateX(60deg) translateY(0px);
+  }
+  100% {
+    transform: perspective(100px) rotateX(60deg) translateY(20px);
+  }
 }
 
 
