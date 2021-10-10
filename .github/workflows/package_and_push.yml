@@ -16,4 +16,7 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: 12
-    - run: npm install
+    - run: |
+        npm install
+        npm install vsce
+        npm run package
