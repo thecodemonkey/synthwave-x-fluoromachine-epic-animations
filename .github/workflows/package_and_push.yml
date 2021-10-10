@@ -16,7 +16,7 @@ jobs:
     - uses: actions/setup-node@v2
       with:
         node-version: 12
-    - uses: action-get-npm-version@master        
+    - uses: pchynoweth/action-get-npm-version@master
       id: version
     - run: |
         npm install
