@@ -11,7 +11,13 @@
 <br/>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/1646017/124357788-9bbdc680-dc1d-11eb-8d9e-1835933d6bcf.gif" style="box-shadow:0 0 35px #000; width: 80%"/>
+  <img src="https://user-images.githubusercontent.com/1646017/136690694-79e9973b-6d55-40cb-b8d1-4820d2a4ee35.gif" /><br/>
+  <i style="font-size: .8em">legendary TRON underground</i>
+</p>
+<br/><br/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/1646017/136690891-7bcca587-9489-4a40-ba78-e3b851624dd8.gif" /><br/>
+  <i  style="font-size: .8em">epic neon glowing tooltips and folding effects</i>
 </p>
 
 <br/>
