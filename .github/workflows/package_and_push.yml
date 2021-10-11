@@ -21,8 +21,13 @@ jobs:
         echo 'CURRENT VERSION IS:  ${{ steps.version.outputs.version }}'
     
     - uses: actions/github-script@v5
+      id: new_version
       with:
         script: |
           const vr = "${{ steps.version.outputs.version }}"
           console.log(vr);
-          console.log(vr.split("."))
+          const varr = vr.split(".");
+          return varr[0] + '.' + varr[1] + '.' + (parseInt(varr[2])++)
+
+    - run: echo "newversion is"  ${{ steps.new_version.outputs.version }}
+    
