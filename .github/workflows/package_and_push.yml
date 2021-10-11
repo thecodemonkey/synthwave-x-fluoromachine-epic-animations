@@ -39,13 +39,13 @@ jobs:
         echo "$(<README.md)"
         
     - run: |
+        git config user.email "ghostdev@gh.com"
+        git config user.name "ghostdev"   
         git branch --show-current
         git add -A         
         git commit -m "auto increase version number"
         git status
         git push        
         
-#        git config user.email "ghostdev@gh.com"
-#        git config user.name "ghostdev"
 
     
