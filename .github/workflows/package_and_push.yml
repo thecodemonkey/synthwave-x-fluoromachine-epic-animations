@@ -31,5 +31,8 @@ jobs:
           return newVersion;
         result-encoding: string
 
-    - run: echo "newversion is"  ${{ steps.new_version.outputs.result }}
+    - run: |
+        echo "newversion is"  ${{ steps.new_version.outputs.result }}
+        sed -i -e 's/${{ steps.version.outputs.version }}/${{ steps.new_version.outputs.result }}/g' package.json
+        echo "$(<package.json)"
     
