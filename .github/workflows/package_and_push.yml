@@ -34,5 +34,7 @@ jobs:
     - run: |
         echo "newversion is"  ${{ steps.new_version.outputs.result }}
         sed -i -e 's/${{ steps.version.outputs.version }}/${{ steps.new_version.outputs.result }}/g' package.json
+        sed -i -e 's/animations-${{ steps.version.outputs.version }}/animations-${{ steps.new_version.outputs.result }}/g' readme.md
         echo "$(<package.json)"
+        echo "$(<readme.md)"
     
