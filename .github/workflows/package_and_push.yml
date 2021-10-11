@@ -25,14 +25,11 @@ jobs:
       with:
         script: |
           const vr = "${{ steps.version.outputs.version }}"
-          console.log(vr);
           const varr = vr.split(".");
-          const newVersion = '' + varr[0] + '.' + varr[1] + '.' + (parseInt(varr[2])+1)
-          
+          const newVersion = '' + varr[0] + '.' + varr[1] + '.' + (parseInt(varr[2])+1)         
           console.log('new VERSION', newVersion);
-          
           return newVersion;
         result-encoding: string
 
-    - run: echo "newversion is"  ${{ steps.new_version.outputs.version }}
+    - run: echo "newversion is"  ${{ steps.new_version.outputs.result }}
     
