@@ -27,7 +27,7 @@ jobs:
           const vr = "${{ steps.version.outputs.version }}"
           console.log(vr);
           const varr = vr.split(".");
-          return varr[0] + '.' + varr[1] + '.' + (parseInt(varr[2])++)
+          return varr[0] + '.' + varr[1] + '.' + (parseInt(varr[2])+1)
 
     - run: echo "newversion is"  ${{ steps.new_version.outputs.version }}
     
