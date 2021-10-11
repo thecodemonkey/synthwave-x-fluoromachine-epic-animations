@@ -37,4 +37,15 @@ jobs:
         sed -i -e 's/animations-${{ steps.version.outputs.version }}/animations-${{ steps.new_version.outputs.result }}/g' README.md
         echo "$(<package.json)"
         echo "$(<README.md)"
+        
+    - run: |
+        git branch --show-current
+        git add -A         
+        git commit -m "auto increase version number"
+        git status
+        git push        
+        
+#        git config user.email "ghostdev@gh.com"
+#        git config user.name "ghostdev"
+
     
