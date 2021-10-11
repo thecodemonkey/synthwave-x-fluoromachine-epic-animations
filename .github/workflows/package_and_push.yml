@@ -22,4 +22,7 @@ jobs:
     
     - uses: actions/github-script@v5
       with:
-        script: console.log(context)
+        script: |
+          const vr = "${{ steps.version.outputs.version }}"
+          console.log(vr);
+          console.log(vr.split("."))
