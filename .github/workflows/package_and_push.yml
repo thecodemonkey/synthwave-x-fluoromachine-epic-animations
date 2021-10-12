@@ -37,10 +37,7 @@ jobs:
         echo "$(<package.json)"
         echo "$(<README.md)"
         
-    - name: GH RELEASE
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
+    - run: |
         git config user.email "ghostdev@gh.com"
         git config user.name "ghostdev"   
         git branch --show-current
@@ -50,13 +47,16 @@ jobs:
         git status
         git push        
         git push --tags origin
-        gh release create v${{ steps.new_version.outputs.result }}
 
-    - name: 3. CREATE GH RELEASE
-      uses: ncipollo/release-action@v1
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
       with:
-        tag: "v${{ github.event.inputs.tag }}"
-        token: ${{ secrets.GITHUB_TOKEN }}
+        tag_name: v${{ steps.new_version.outputs.result }}
+        release_name: RELEASE v${{ steps.new_version.outputs.result }}
+        draft: false
+        prerelease: false
    
         
     - run: |
