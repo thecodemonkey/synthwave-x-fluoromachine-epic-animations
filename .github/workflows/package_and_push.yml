@@ -43,11 +43,15 @@ jobs:
         git branch --show-current
         git add -A         
         git commit -m "auto increase version number"
+        git tag -a ${{ steps.new_version.outputs.result }} -m "RELEASE v${{ steps.new_version.outputs.result }}"
         git status
         git push        
         
+   
+        
     - run: |
         npm run package
+        npm run publish
         
 
     
