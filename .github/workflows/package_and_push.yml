@@ -45,7 +45,8 @@ jobs:
         git commit -m "auto increase version number"
         git tag -a ${{ steps.new_version.outputs.result }} -m "RELEASE v${{ steps.new_version.outputs.result }}"
         git status
-        git push        
+        git push   
+        git push --tags origin
         
    
         
