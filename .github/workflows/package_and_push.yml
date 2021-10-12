@@ -37,7 +37,10 @@ jobs:
         echo "$(<package.json)"
         echo "$(<README.md)"
         
-    - run: |
+    - name: GH RELEASE
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
         git config user.email "ghostdev@gh.com"
         git config user.name "ghostdev"   
         git branch --show-current
@@ -45,10 +48,15 @@ jobs:
         git commit -m "auto increase version number"
         git tag -a v${{ steps.new_version.outputs.result }} -m "RELEASE v${{ steps.new_version.outputs.result }}"
         git status
-        git push   
+        git push        
         git push --tags origin
         gh release create v${{ steps.new_version.outputs.result }}
-        
+
+    - name: 3. CREATE GH RELEASE
+      uses: ncipollo/release-action@v1
+      with:
+        tag: "v${{ github.event.inputs.tag }}"
+        token: ${{ secrets.GITHUB_TOKEN }}
    
         
     - run: |
