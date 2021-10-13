@@ -61,7 +61,7 @@ jobs:
         
     - run: |
         npm run package
-        npm run publish -p token${{ secrets.AZURE_PAT }}
+        npm run publish -p ${{ secrets.AZURE_PAT }}
         
 
     
