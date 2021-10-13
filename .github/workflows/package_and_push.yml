@@ -61,7 +61,11 @@ jobs:
         
     - run: |
         npm run package
-        npm run publish -p ${{ secrets.AZURE_PAT }}
-        
+#        npm run publish -p 
+    - uses: lannonbr/vsce-action@master
+      with:
+        args: "publish -p $VSCE_TOKEN"
+      env:
+        VSCE_TOKEN: ${{ secrets.AZURE_PAT }}
 
     
