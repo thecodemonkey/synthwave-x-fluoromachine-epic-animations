@@ -39,8 +39,8 @@ On Mac it might look something like the snippet below:
 
 {
   "vscode_custom_css.imports": [
-    "file:///Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.2.13/synthwave-x-fluoromachine.css",
-    "file:///Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.2.13/epic-80s-transitions.css"
+    "file:///Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.3.13/synthwave-x-fluoromachine.css",
+    "file:///Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.3.13/epic-80s-transitions.css"
     ]
 }
 
@@ -48,8 +48,8 @@ Windows might resemble:
 
 {
   "vscode_custom_css.imports": [
-    "file:///C:/Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.2.13/synthwave-x-fluoromachine.css",
-    "file:///C:/Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.2.13/epic-80s-transitions.css"
+    "file:///C:/Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.3.13/synthwave-x-fluoromachine.css",
+    "file:///C:/Users/{your username}/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.3.13/epic-80s-transitions.css"
     ]
 }
 ```
