@@ -1,4 +1,10 @@
-<h1 align="center" style="color:#8c1eff">  Synthwave <em style="color:#fff" > x</em> Fluoromachine & epic animations </h1> 
+<h1 align="center" style="color:#8c1eff">  Synthwave <em style="color:#fff" > x</em> Fluoromachine & epic animations <br/><br/>
+
+
+  <img src="https://img.shields.io/visual-studio-marketplace/i/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?label=installs&logo=visualstudiocode&style=for-the-badge"/>
+  <img src="https://img.shields.io/visual-studio-marketplace/d/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?logo=visualstudiocode&style=for-the-badge"/>
+    <img src="https://img.shields.io/visual-studio-marketplace/last-updated/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?logo=visualstudiocode&style=for-the-badge"/>
+</h1> 
 
 <p align="center"><strong>This theme brings crazy 80's animations into your VS code 🚀🎉 </strong></p>
 
