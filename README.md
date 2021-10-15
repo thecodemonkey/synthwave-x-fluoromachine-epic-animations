@@ -1,4 +1,4 @@
-<h1 align="center" style="color:#8c1eff">  Synthwave <em style="color:#fff" > x</em> Fluoromachine & epic animations <br/><br/>
+<h1 align="center" >  Synthwave x Fluoromachine & epic animations <br/><br/>
 
 
   <img src="https://img.shields.io/visual-studio-marketplace/i/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?color=%23740c5f&logo=visualstudio&logoColor=%23740c5f&style=flat-square"/>
@@ -26,7 +26,14 @@
   <i  style="font-size: .8em">epic neon glowing tooltips and folding effects</i>
 </p>
 
-<br/>
+<br/> <br/>
+
+
+## Why 
+
+The job of a software developer is hard and often too serious. You always have to be productive and effective. But sometimes you need to take the time to just be a nerd 🤓 or to just have fun again. This theme is exactly for such times! Such nerdy times need to be celebrated accordingly 🎉🦄
+
+<br/> <br/>
 
 ## Installation 
 
