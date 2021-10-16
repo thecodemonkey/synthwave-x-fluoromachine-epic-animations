@@ -1,9 +1,9 @@
 <h1 align="center" >  Synthwave x Fluoromachine & epic animations <br/><br/>
 
 
-  <img src="https://img.shields.io/visual-studio-marketplace/i/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?color=%23740c5f&logo=visualstudio&logoColor=%23740c5f&style=flat-square"/>
-  <img src="https://img.shields.io/visual-studio-marketplace/d/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?color=%23740c5f&logo=visualstudio&logoColor=%23740c5f&style=flat-square"/>
-    <img src="https://img.shields.io/visual-studio-marketplace/last-updated/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?color=%23740c5f&logo=visualstudio&logoColor=%23740c5f&style=flat-square"/>
+  <img src="https://img.shields.io/visual-studio-marketplace/i/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?color=%2340eeff&logo=visualstudio&logoColor=%2340eeff&style=flat-square"/>
+  <img src="https://img.shields.io/visual-studio-marketplace/d/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?color=%2340eeff&logo=visualstudio&logoColor=%2340eeff&style=flat-square"/>
+    <img src="https://img.shields.io/visual-studio-marketplace/last-updated/TheCodemonkey.synthwave-x-fluoromachine-epic-animations?color=%2340eeff&logo=visualstudio&logoColor=%2340eeff&style=flat-square"/>
 </h1> 
 
 <p align="center"><strong>This theme brings crazy 80's animations into your VS code 🚀🎉 </strong></p>
@@ -29,7 +29,7 @@
 <br/> <br/>
 
 
-## Why 
+## Why?
 
 The job of a software developer is hard and often too serious. You always have to be productive and effective. But sometimes you need to take the time to just be a nerd 🤓 or to just have fun again. This theme is exactly for such times! Such nerdy times need to be celebrated accordingly 🎉🦄
 
