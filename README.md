@@ -37,8 +37,12 @@ The job of a software developer is hard and often too serious. You always have t
 
 ## Installation 
 
+Unfortunately, the current installation is a bit complicated. 
+A hassle-free installation is already in development. 
+Until then, the following steps must be performed to install the theme:
+
 1. Install this theme  
-2. Install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)  
+2. Install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) vscode extension
 3. Link the CSS file from this extension in your .vscode/settings.json: 
 
 ```
