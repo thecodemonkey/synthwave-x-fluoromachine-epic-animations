@@ -2,7 +2,7 @@
     "name": "synthwave-x-fluoromachine-epic-animations",
     "displayName": "Synthwave x Fluoromachine & epic animations",
     "description": "This theme brings crazy 80's animations into your VS code 🚀🎉",
-    "version": "1.0.5",
+    "version": "1.4.13",
     "author": "Ilja Leyberman",
     "publisher": "TheCodemonkey",
     "icon": "icon.png",
@@ -37,5 +37,8 @@
     "scripts": {
         "package": "vsce package",
         "publish": "vsce publish"
+    },
+    "dependencies": {
+        "vsce": "^1.100.1"
     }
 }

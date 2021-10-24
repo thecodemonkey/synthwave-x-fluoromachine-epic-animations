@@ -1,0 +1,71 @@
+name: package & push to marketplace
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  doit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: 14
+    - uses: pchynoweth/action-get-npm-version@master
+      id: version
+    - run: |
+        npm install
+        npm install vsce
+        echo 'CURRENT VERSION IS:  ${{ steps.version.outputs.version }}'
+    
+    - uses: actions/github-script@v5
+      id: new_version
+      with:
+        script: |
+          const vr = "${{ steps.version.outputs.version }}"
+          const varr = vr.split(".");
+          const newVersion = '' + varr[0] + '.' + (parseInt(varr[1])+1) + '.' + varr[2]         
+          console.log('new VERSION', newVersion);
+          return newVersion;
+        result-encoding: string
+
+    - run: |
+        echo "newversion is"  ${{ steps.new_version.outputs.result }}
+        sed -i -e 's/${{ steps.version.outputs.version }}/${{ steps.new_version.outputs.result }}/g' package.json
+        sed -i -e 's/animations-${{ steps.version.outputs.version }}/animations-${{ steps.new_version.outputs.result }}/g' README.md
+        echo "$(<package.json)"
+        echo "$(<README.md)"
+        
+    - run: |
+        git config user.email "ghostdev@gh.com"
+        git config user.name "ghostdev"   
+        git branch --show-current
+        git add -A         
+        git commit -m "auto increase version number"
+        git tag -a v${{ steps.new_version.outputs.result }} -m "RELEASE v${{ steps.new_version.outputs.result }}"
+        git status
+        git push        
+        git push --tags origin
+
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+      with:
+        tag_name: v${{ steps.new_version.outputs.result }}
+        release_name: RELEASE v${{ steps.new_version.outputs.result }}
+        draft: false
+        prerelease: false
+   
+        
+    - run: |
+        npm run package
+#        npm run publish -p 
+    - uses: lannonbr/vsce-action@master
+      with:
+        args: "publish -p $VSCE_TOKEN"
+      env:
+        VSCE_TOKEN: ${{ secrets.AZURE_PAT }}
+
+    
