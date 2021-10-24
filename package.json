@@ -5,7 +5,7 @@
     "version": "1.0.5",
     "author": "Ilja Leyberman",
     "publisher": "TheCodemonkey",
-	"icon": "icon.png",
+    "icon": "icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/thecodemonkey/synthwave-x-fluoromachine-epic-animations/"
@@ -19,8 +19,8 @@
         "vaporwave",
         "synthwave",
         "fluoromachine",
-	"animated",
-	"theme"
+        "animated",
+        "theme"
     ],
     "categories": [
         "Themes"
@@ -35,7 +35,7 @@
         ]
     },
     "scripts": {
-        "package" : "vsce package",
-        "publish" : "vsce publish"
+        "package": "vsce package",
+        "publish": "vsce publish"
     }
 }
