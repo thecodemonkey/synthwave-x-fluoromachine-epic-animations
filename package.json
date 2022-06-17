@@ -25,6 +25,10 @@
     "categories": [
         "Themes"
     ],
+    "activationEvents": [
+        "*"
+    ],    
+    "main": "./src/main.js",
     "contributes": {
         "themes": [
             {
@@ -39,6 +43,6 @@
         "publish": "vsce publish"
     },
     "dependencies": {
-        "vsce": "^1.100.1"
+
     }
 }
