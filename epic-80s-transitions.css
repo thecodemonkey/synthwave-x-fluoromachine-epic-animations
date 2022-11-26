@@ -165,8 +165,11 @@
     0% {  
         box-shadow: 0 0 5px 0 #00c3ff;      
     }
-    100% {
+    50% {
         box-shadow: 0 0 35px 5px #00c3ff;
+    }
+    100% {
+        box-shadow: 0 0 5px 0 #00c3ff;
     }
 }
 
