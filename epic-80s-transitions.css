@@ -107,7 +107,7 @@
 
 .monaco-editor .cursor { 
     box-shadow: 0 0 15px 2px #00c3ff;
-    animation: cursor .5s infinite linear;
+    animation: cursor 1s infinite ease-in-out;
 }
 
 
@@ -165,8 +165,11 @@
     0% {  
         box-shadow: 0 0 5px 0 #00c3ff;      
     }
-    100% {
+    50% {
         box-shadow: 0 0 35px 5px #00c3ff;
+    }
+    100% {
+        box-shadow: 0 0 5px 0 #00c3ff;
     }
 }
 
@@ -181,13 +184,13 @@
 
 
 
+/*
 .editor-container::after {
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
 
-    /* content: 'do epic shit...'; */
     content: ' ';
     font-weight: bold;
     font-size: 5em;
@@ -222,4 +225,4 @@
         color: #fc28a855;
         text-shadow: 0 0 30px #fc28a8;
     }
-}
+} */
