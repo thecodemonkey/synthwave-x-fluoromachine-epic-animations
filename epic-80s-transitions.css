@@ -107,7 +107,7 @@
 
 .monaco-editor .cursor { 
     box-shadow: 0 0 15px 2px #00c3ff;
-    animation: cursor .5s infinite linear;
+    animation: cursor 1s infinite ease-in-out;
 }
 
 
