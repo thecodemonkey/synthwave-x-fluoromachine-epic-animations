@@ -181,13 +181,13 @@
 
 
 
+/*
 .editor-container::after {
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
 
-    /* content: 'do epic shit...'; */
     content: ' ';
     font-weight: bold;
     font-size: 5em;
@@ -222,4 +222,4 @@
         color: #fc28a855;
         text-shadow: 0 0 30px #fc28a8;
     }
-}
+} */
