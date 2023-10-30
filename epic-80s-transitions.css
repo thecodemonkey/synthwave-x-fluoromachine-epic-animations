@@ -6,7 +6,6 @@
 
 .mtk8, .mtk9, .mtk3, .mtk6, .mtk7, .mtk10 {
     display: inline-block;
-    
     transition: .4s transform;
     /* transform: rotateX(0); */
 }
@@ -14,7 +13,7 @@
 
 .mtk8:hover, .mtk9:hover, .mtk3:hover, .mtk6:hover, .mtk7:hover, .mtk10:hover {
     text-shadow: 2 2 15px;
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
 }
 
 
@@ -58,7 +57,6 @@
     background-size: 200% 200%;
     width: 100%;
     background-image: linear-gradient(to right, #fc28a8, #03edf9, #fc28a8, #03edf9, #fc28a8);
-
     animation: neonline 2s infinite;
 }
 
@@ -97,13 +95,11 @@
 
 /* end of tabs*/
 
-
-.monaco-editor .selected-text {
-    background-color: #000000aa!important;
-    box-shadow: 0 0 35px 5px #ff008d55;
-    color: #fff!important;
- }
-
+.monaco-inputbox > .wrapper > textarea.input::selection {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 35px 5px #ff008d55;
+  color: #fff!important;
+}
 
 .monaco-editor .cursor { 
     box-shadow: 0 0 15px 2px #00c3ff;
@@ -112,7 +108,8 @@
 
 
 .editor-group-container:after {
-    animation: flight 2s infinite linear;
+   /* disable moving lines animation */
+   /* animation: flight 2s infinite linear; */
 }
 
 .view-line .inline-folded:after {
@@ -121,15 +118,10 @@
     animation: colapse .5s linear;
 }
 
-
-
 .monaco-editor .line-numbers.active-line-number {
     color: turquoise;
     text-shadow: 0 0 1px yellow!important;
 }
-
-
-
 
 /* canvas.minimap-decorations-layer {
     background-color: transparent !important;
@@ -142,10 +134,6 @@
 .monaco-editor .minimap-shadow-visible {
     box-shadow: none!important;
 }
-
-
-
-
 
 @keyframes colapse {
     0% {  
